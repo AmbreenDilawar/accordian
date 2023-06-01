@@ -1,0 +1,23 @@
+.panel-content {
+    display: none;
+  }
+  
+  .panel.active .panel-content {
+    display: block;
+  }
+
+  .panel-header{
+    border-bottom: 3px solid grey;
+    padding-top: 30px;
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .panel-content{
+    border-bottom: 3px solid greenyellow;
+    width: 50%;
+    padding-top: 30px;
+    font-size: 18px;
+  }
